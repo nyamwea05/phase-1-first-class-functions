@@ -2,8 +2,8 @@ const chai = require("chai");
 const spies = require("chai-spies");
 chai.use(spies);
 
-describe("index", () => {
-  describe("receivesAFunction(callback)", () => {
+describe("index", () => {receivesAFunction
+  describe("(callback)", () => {
     it("receives a function and calls it", () => {
       const spy = chai.spy();
 
